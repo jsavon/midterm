@@ -28,7 +28,8 @@ def askUserChoice():
         print('choose a number between 1-4.')
         userChoice = int(input())
     if userChoice not in theNumbers:
-        return print('sorry re-enter the number between 1-4 to see who might lose.')
+        print('sorry re-enter the number between 1-4 to see who might lose.')
+        continue
     else:
         return int(userChoice)
     
